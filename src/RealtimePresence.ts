@@ -3,7 +3,7 @@
   License: https://github.com/phoenixframework/phoenix/blob/d344ec0a732ab4ee204215b31de69cf4be72e3bf/LICENSE.md
 */
 
-import cloneDeep from 'lodash.clonedeep'
+import cloneDeep from 'lodash-es/cloneDeep'
 import {
   PresenceOpts,
   PresenceOnJoinCallback,
