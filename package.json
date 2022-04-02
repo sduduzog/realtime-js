@@ -32,7 +32,8 @@
     "mocha": "node -r esm node_modules/.bin/mocha ./test/**/*.js -r jsdom-global/register",
     "test": "run-s clean build mocha",
     "docs": "typedoc --mode file --target ES6 --theme minimal",
-    "docs:json": "typedoc --json docs/spec.json --mode modules --includeDeclarations --excludeExternals"
+    "docs:json": "typedoc --json docs/spec.json --mode modules --includeDeclarations --excludeExternals",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@types/phoenix": "^1.5.4",
